@@ -123,4 +123,4 @@ if (sss > 50 || sss < 90) {
     console.log("true")
 } else {
     console.log("folse")
-}
+} // || <----- bu ikkita chiziq yoki dagan manoni bildiradi bun bittasi tugri bulsa ham true
