@@ -49,3 +49,36 @@ const person = {
         }
     } // bu endi murakkab arrayni kurdik bu object murakkabi edi qanday buni chiqarib berishni kuramiz
 console.log(person.name, person.address.hausenamber, person.isStudy); // bu eski usuli
+console.log(JSON.stringify(person)) //Json data turi stringifyning ichiga nima quysam stringga aylantirib berAdi buni kupincha bekentga junatayotganda ishlatamiz
+    // murakkabrogi
+const students = [{
+        fname: 'Mukhammadazam',
+        age: 21,
+        gradeated: false
+
+    },
+    {
+        fname: 'Mukhammadqodir',
+        age: 20,
+        gradeated: true
+
+    },
+    {
+        fname: 'Mukhammadali',
+        age: 19,
+        gradeated: false
+
+    }
+]; // endi arraylar bilan ham ishlashniham yuli bulish kerak ?
+// Masalan fname yani ismlarni hammasini chiqarib bermoqchiman ----->
+// arrayda har bir raqam index buladi va har birini raqamlab olamiz
+// Faqat jsda bitta narsa bor js raqamlarni 1dan emas 0dan boshlab uqiydi
+console.log(students[0]) // 0 quysam birinchini chiqarib beradi arrayda biz raqamlar bilan ishlayymiz
+    // ismlarning hammasini bittada chiqarib berish ------->
+    //   console.log(students.length), // length bu arrayning ichida nechta eliment borligini chiqarib beradi
+
+
+
+for (let i = 0; i < 20; i++) {
+    console.log(i)
+}
