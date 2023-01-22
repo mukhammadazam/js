@@ -124,3 +124,10 @@ if (sss > 50 || sss < 90) {
 } else {
     console.log("folse")
 } // || <----- bu ikkita chiziq yoki dagan manoni bildiradi bun bittasi tugri bulsa ham true
+
+
+
+
+const s1 = 72;
+const result = s1 > 70 ? "A" : "B";
+console.log(result);
