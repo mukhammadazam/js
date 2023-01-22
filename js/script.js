@@ -79,6 +79,48 @@ console.log(students[0]) // 0 quysam birinchini chiqarib beradi arrayda biz raqa
 
 
 
-for (let i = 0; i < 20; i++) {
-    console.log(i)
+for (let i = 0; i < students.length; i++) {
+    console.log(i);
+    // console.log(students[i]) //faqat menga ismlar kerak bulsa ---------->
+    console.log(students[i].fname);
+}
+
+
+
+//const x = 22;
+//const y = 24;
+//if (x < y) {
+//if true
+//  console.log("true");
+//} else {
+// folse
+//console.log("folse"}
+// Agar biri raqam ikkin ikkinchisi text bulsa js ikkovini birxil data turiga utqazib keyin solishtiradi
+
+// const score = 100;
+//if (score >= 90) {
+//  console.log("You got A");
+//} else if (score < 90 && score >= 80) {
+// console.log("You got B")
+//} else if (score < 80 && score >= 70) {
+//   console.log("You got C")
+//} else if (score < 70 && score >= 60) {
+// console.log("You got D")
+//} else {
+//  console.log("You failed yani uhlading")} 
+// && <---- bu belgi and yani uzbekchasiga va degani
+
+const score = 51;
+
+if (score > 50 && score < 90) {
+    console.log("true"); // shunda ikkalasigayam teng score yani 51 katta 50dan 51 kichkina 90dan bunda javob TRUE BULADI
+} else {
+    console.log("folse"); // bunda score 90dan katta bulsa folse buladi
+};
+const sss = 100;
+
+if (sss > 50 || sss < 90) {
+    console.log("true")
+} else {
+    console.log("folse")
 }
