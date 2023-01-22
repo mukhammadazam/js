@@ -48,4 +48,4 @@ const person = {
             hausenamber: 208,
         }
     } // bu endi murakkab arrayni kurdik bu object murakkabi edi qanday buni chiqarib berishni kuramiz
-console.log(person.name, person.address.hausenamber, person.isStudy)
+console.log(person.name, person.address.hausenamber, person.isStudy); // bu eski usuli
